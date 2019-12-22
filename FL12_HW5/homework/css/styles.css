@@ -1,0 +1,314 @@
+/* * Feel free to change name of colors if you need it * Feel free to add new colors if you need it :root {
+     --bg-color--dark: #0b192f;
+     --bg-color--header: #024161;
+     --link: #fff;
+     --link--hover: #1f52a4;
+     --bg-footer-color: #024161;
+}
+ */
+ body {
+     font-family: roboto;
+}
+ .post-1 {
+     background: #9d27b0;
+}
+ .post-2 {
+     background: #9bb800;
+}
+ .post-3 {
+     background: #ed5120;
+}
+ .post-4 {
+     background: #9d27b0;
+}
+ .post-5 {
+     background: #2d95bb;
+}
+/* Your styles go here */
+ * {
+     box-sizing: border-box;
+}
+ body {
+     background-color: #0b192f;
+     color: #fff;
+     width: 70%;
+     margin-left: 15%;
+}
+ .news-1, .news-2 {
+     color: #0b192f;
+     background-color: #fff;
+}
+ .footer {
+     background-color: #024161;
+}
+ ul {
+     list-style-type: none;
+     padding: 0;
+     overflow: hidden;
+     background-color: #024161;
+     font-weight: lighter;
+     width: 100%;
+}
+ li {
+     float: right;
+}
+ li a {
+     display: block;
+     color: #fff;
+     text-align: center;
+     padding: 20px 16px;
+     text-decoration: none;
+     letter-spacing: 1px;
+}
+ li a:hover {
+     background-color: #1f52a4;
+}
+ .logo {
+     float: left;
+     font-size: 20px;
+     color: #fff;
+     text-align: left;
+     padding: 14px 16px;
+     text-decoration: none;
+     width: 30%;
+     letter-spacing: 1.5px;
+}
+ .logo_2 {
+     color: #9d27b0;
+}
+ img {
+     max-width: 100%;
+     height: auto;
+}
+ .container {
+     margin-bottom: 2%;
+     margin-top: 2%;
+     height: 300px;
+     padding: 18% 5%;
+     opacity: 0.8;
+}
+ .home_section {
+     background-image: url("../img/post0.jpg");
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     height: auto;
+}
+ h3 {
+     font-weight: lighter;
+     font-size: 30px;
+}
+ h1 {
+     font-weight: lighter;
+     font-size: 40px;
+}
+ .post_text {
+     font-size: 16px;
+     opacity: 0.7;
+}
+ .post-container, .bye, .post-container6, .post-container-news {
+     padding: 2%;
+}
+ .date-text, .date-text-1 {
+     font-weight: lighter;
+     font-size: 50px;
+     opacity: 0.3;
+}
+ .date-text {
+     float: right;
+     margin-top: 1%;
+}
+ .date-text-1 {
+     text-align: center;
+     height: auto;
+     margin-left: 45%;
+}
+ .image-4 {
+     width: 100%;
+}
+ .bye {
+     opacity: 0.3;
+     font-weight: lighter;
+     text-align: center;
+     margin-top: 2%;
+}
+ .post-1:hover, .post-2:hover, .post-3:hover, .post-4:hover, .post-5:hover {
+     opacity: 0.8;
+}
+/* Mobile */
+ @media only screen and (max-width: 480px) {
+     body {
+         width: 100%;
+         margin: 0px;
+         color: #fff;
+    }
+     .nav_txt {
+         display: none;
+    }
+     .ul {
+         padding: 5px 5px;
+    }
+     li {
+         float: left;
+    }
+     .nav_item {
+         width: 8%;
+         height: 3px;
+         background-color: #fff;
+         margin-left: 45%;
+         margin-bottom: 1%;
+    }
+     li:last-child {
+         display: none;
+    }
+     .logo {
+         text-align: center;
+         vertical-align: bottom;
+         width: 100%;
+    }
+     .post-container, .bye, .post-container6, .post-container-news {
+         margin-bottom: 0px;
+    }
+     .date-text {
+         margin-top: 2%;
+         width: 20%;
+    }
+     .date-text-1 {
+         margin-right: 1%;
+    }
+     .bye {
+         text-align: center;
+         width: 100%;
+         height: auto;
+    }
+     .column1 {
+         width: 100%;
+    }
+     .post-0 {
+         font-size: 16px;
+    }
+}
+/* Tablet */
+ @media only screen and (min-width: 481px) and (max-width: 768px) {
+     .nav_txt {
+         display: none;
+    }
+     .ul {
+         padding: 5px 5px;
+    }
+     li {
+         float: left;
+         margin-bottom: 5%;
+    }
+     .nav_item {
+         width: 8%;
+         height: 3px;
+         background-color: #fff;
+         margin-left: 45%;
+         margin-bottom: 1%;
+    }
+     li:last-child {
+         display: none;
+    }
+     .logo {
+         text-align: center;
+         vertical-align: bottom;
+         width: 100%;
+    }
+     .post-container, .bye, .post-container6, .post-container-news {
+         margin-bottom: 0px;
+    }
+     .bye {
+         text-align: center;
+    }
+     .main_container {
+         width: 100%;
+         display: flex;
+    }
+     .blog {
+         width: 70%;
+    }
+     .blog img {
+         width: 100%;
+         height: 100%;
+    }
+     .news {
+         width: 27%;
+         margin-left: 3%;
+    }
+     .news-1 {
+         margin-bottom: 5%;
+    }
+}
+/* Desktop */
+ @media only screen and (min-width: 769px) and (max-width: 1400px){
+     .post-container, .post-container6, .bye, .post-container-news {
+         padding: 2%;
+         margin-bottom: 0px;
+    }
+     .bye {
+         display: table;
+         width: 100%;
+    }
+     .column2 {
+         float: right;
+         width: 18%;
+         margin-top: -8%;
+         text-align: right;
+    }
+     .column1 {
+         width: 70%;
+         text-align: left;
+    }
+	.image-2, .image-4 {
+         float: left;
+         order: 2;
+    }
+     .main_container {
+         width: 100%;
+         display: flex;
+    }
+     .blog {
+         width: 70%;
+    }
+     .post-1, .post-2, .post-3, .post-4 {
+         display: flex;
+         height: 20%;
+         overflow: auto;
+    }
+     .post-5 {
+         width: 100%;
+         height: auto;
+    }
+     .blog img {
+         height: 100%;
+         width: 50%;
+         position: relative;
+    }
+     .news {
+         width: 27%;
+         margin-left: 3%;
+    }
+     .news-1 {
+         margin-bottom: 5%;
+    }
+     .post-container {
+         width: 50%;
+    }
+     .post-container h1 {
+         font-size: 30px;
+    }
+     .post-container6 h1 {
+         font-size: 30px;
+    }
+     .date-text, .date-text1 {
+         font-size: 33px;
+    }
+     .blog-image:nth-child(odd){
+         order: 2;
+    }
+     .blog-image:nth-child(even){
+         order: 1;
+    }
+}
+ 
