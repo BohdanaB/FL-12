@@ -1,0 +1,25 @@
+ul, #myList {
+  list-style-type: none; 
+
+}
+
+.level {
+  cursor: pointer;
+  user-select: none;  
+}
+
+.material-icons {
+ float: left; 
+  }
+  
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.level-down {
+	
+}
